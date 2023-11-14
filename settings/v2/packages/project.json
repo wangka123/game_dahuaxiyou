@@ -1,0 +1,16 @@
+{
+  "__version__": "1.0.4",
+  "layer": [
+    {
+      "name": "Map",
+      "value": 1
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 1334,
+      "height": 750
+    }
+  },
+  "custom_joint_texture_layouts": []
+}
