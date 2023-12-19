@@ -103,6 +103,7 @@ export class MovieClip extends Component {
     private _ui_transform: UITransform = null;
 
     onLoad() {
+        // 测试提交
         this.running = this.auto_play_on_load;
         if(!this._is_init)
             this.init(this.tex, this.row, this.col, this.play_times);

@@ -14,6 +14,7 @@ export class SpawnPoint extends Component {
     public init() {}
 
     public init_edit_data(edit_data: any) {
+        // 测试提交
         this._edit_data = new EditSpawnPointData(edit_data);
         this.node.position = new Vec3(edit_data.x, edit_data.y);
         this.spawn_id = edit_data.spawnId;
